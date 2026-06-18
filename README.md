@@ -34,8 +34,7 @@ docker compose up -d                # background, restart always
 
 ## Architecture
 
-```
-
+```tree
 cmd/guarddog/
     main.go # Cobra-style CLI wiring
     add.go # Target registration
@@ -61,7 +60,7 @@ internal/
 
 Go · SQLite · gRPC · Docker API · SMTP
 
-Roadmap
+## Roadmap
 
 - v1.0: CLI + polling + SQLite + email alerts
 - v1.1: gRPC streaming + web dashboard
